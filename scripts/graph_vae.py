@@ -255,7 +255,7 @@ if __name__ == "__main__":
     parser.add_argument("--n-samples", type=int, default=1000)
     parser.add_argument("--print-every", type=int, default=25)
     parser.add_argument("--seed", type=int, default=0)
-    parser.add_argument("--output", type=str, default="output/generated_graphvae_graphs.pt")
+    parser.add_argument("--output", type=str, default="output/generated_vae_graphs.pt")
     args = parser.parse_args()
 
     main(args)
